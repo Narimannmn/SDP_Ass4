@@ -3,7 +3,7 @@ package org.example;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Chat {
+public class Chat implements IChat{
     private final List<User> users;
 
     public Chat() {
